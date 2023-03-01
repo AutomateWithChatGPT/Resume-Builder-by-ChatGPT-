@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(10**6)
+
 from src.ui import *
 from src.utils import is_chatbot_loaded
 
